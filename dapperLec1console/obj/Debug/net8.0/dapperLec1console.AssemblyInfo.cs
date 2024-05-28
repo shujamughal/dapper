@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dapperLec1console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+109ee7b0697113de0cf1a6628a1ff4ebdae20d6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f4a440d31b456b5cd3079ed501b99359c6aae45")]
 [assembly: System.Reflection.AssemblyProductAttribute("dapperLec1console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dapperLec1console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

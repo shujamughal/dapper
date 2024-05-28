@@ -13,13 +13,14 @@ SqlConnection connection = new SqlConnection(connectionString);
 
 
 
-/*
+
         Console.WriteLine(" -- insertion -- ");
-        User user = new User {  Name="fahad", Email="fahad@gmail.com"};
+        User user = new User {  Name="shuja@112", Email="shuja@gmail.com"};
         string insertSql = "INSERT INTO Users (Name, Email) VALUES (@Name, @Email)";
-        connection.Execute(insertSql, user);
+        // connection.Execute(insertSql, user);
+        connection.Execute(insertSql, new { Name=user.Name, Email= user.Email });
 
-
+/*
         
         
         Console.WriteLine("-- update --");
@@ -48,7 +49,7 @@ connection.Query<User>(sql).ToList().ForEach(x => Console.WriteLine(x.Name));
         Console.WriteLine(u.Email);
         Console.WriteLine(u.Name);
 */
-Console.WriteLine("-- Multi-Mapping Example -- ");
+/*Console.WriteLine("-- Multi-Mapping Example -- ");
 
 string multiMappingSql = @"SELECT o.Id, o.Product, o.Amount, o.UserId, 
                               u.Id, u.Name, u.Email 
@@ -66,3 +67,4 @@ foreach(Order order in orders)
     Console.WriteLine($"oder id:  {order.Id} user name: {order.User.Name} and product:  {order.Product}");
     
 }
+*/
